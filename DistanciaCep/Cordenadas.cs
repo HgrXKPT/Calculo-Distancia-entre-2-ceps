@@ -81,26 +81,10 @@ namespace DistanciaCep {
         }
 
 
-
-
-
-
-
-
         public class NominatimResponse {
             public string Lat { get; set; }
             public string Lon { get; set; }
         }
 
-        public class Address {
-            [JsonProperty("city")]
-            public string City { get; set; }
-
-            [JsonProperty("state")]
-            public string State { get; set; }
-
-            [JsonProperty("country")]
-            public string Country { get; set; }
-        }
     }
 }
