@@ -12,7 +12,7 @@ namespace DistanciaCep {
         private static readonly HttpClient client = new HttpClient();
         public static async Task Main(string[] args) {
 
-            string ApiKey = "f66f9f54a1msh3c24f964cedc69bp153656jsndc9113bded3b";
+            string ApiKey = "SUA-API-KEY";
             string cep, URL , cep2, URL2;
 
             Console.WriteLine("Digite um CEP para fazer a busca");
